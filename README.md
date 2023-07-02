@@ -7,25 +7,25 @@ Follow the steps below to set up and deploy the web application:
 ```
 <lambda_function.py>
 ```
-[Get the file 'Lambda_function.py' Here](https://aws.amazon.com/lambda/)
+[Get the file 'Lambda_function.py' Here](https://github.com/aduome/Lambda-WebApp-Dynamodb-S3/blob/main/lambda_function.py)
 
 2. index.html: This file represents the main HTML page of the web app. It includes a registration form where users can enter their details and submit the form to register.
 ```
 <index.html>
 ```
-[Get the file 'index.html' Here](https://aws.amazon.com/lambda/)
+[Get the file 'index.html' Here](https://github.com/aduome/Lambda-WebApp-Dynamodb-S3/blob/main/index.html)
 
 3. error.html: This file represents the error page displayed when an issue with the web app exists.
 ```
 <error.html>
 ```
-[Get the file 'error.html' Here](https://aws.amazon.com/lambda/)
+[Get the file 'error.html' Here](https://github.com/aduome/Lambda-WebApp-Dynamodb-S3/blob/main/error.html)
 
 4. lambda-role-policy.json: This JSON file contains the IAM policy that needs to be attached to the Lambda function's execution role. It provides the necessary permissions to access the DynamoDB table.
 ```
 <lambda-role-policy.json>
 ```
-[Get the file 'error.html' Here](https://aws.amazon.com/lambda/)
+[Get the file 'lambda_role_policy' Here](https://github.com/aduome/Lambda-WebApp-Dynamodb-S3/blob/main/lambda_policy.txt)
 ## Prerequisites
 Before deploying the web app, make sure you have the following prerequisites:
 
