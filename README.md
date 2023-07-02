@@ -65,7 +65,7 @@ If you encounter any issues or have questions, please refer to the official AWS 
 
 ## Contact
 
-Daniel Agyei - [@my_linkedin](https://www.linkedin.com/in/daniel-owusu-banahene-agyei-3a4172136)
+Daniel Agyei - [@my_linkedin](https://www.linkedin.com/in/daniel-owusu-banahene-agyei)
 
 Email: [My Email](daniel.agyeibanahene@gmail.com)
 
