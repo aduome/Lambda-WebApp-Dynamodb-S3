@@ -61,6 +61,16 @@ Follow these steps to deploy the interactive web app:
 You can now customize the web app further or add additional features as per your requirements.
 If you encounter any issues or have questions, please refer to the official AWS documentation or reach out for support.
 
+<!-- CONTACT -->
+
+## Contact
+
+Daniel Agyei - [@my_linkedin](https://www.linkedin.com/in/daniel-owusu-banahene-agyei-3a4172136)
+
+Email: [My Email](daniel.agyeibanahene@gmail.com)
+
+Project Link: [Project Link](https://github.com/aduome/Lambda-WebApp-Dynamodb-S3/edit/main))
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to enhance the functionality, feel free to open a pull request.
