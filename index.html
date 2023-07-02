@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aduome AWS Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      background-size: cover;    
+      background-image: url(https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149152313.jpg?size=626&ext=jpg&ga=GA1.2.1563377671.1684270116&semt=robertav1_2_sidr);
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;  /* Adjust the height as needed */
+    }
+
+
+    .card {
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin-right: 20px;
+      padding: 40px;
+    }
+
+    .card:before {
+      content: "";
+      position: absolute;
+      right: -2px;
+      top: -2px;
+      bottom: -2px;
+      background-color: #fff;
+      border-radius: 10px;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    .form-group label {
+      color: #e8ff17;
+      font-weight: bold;
+      margin-bottom: 5px;
+      display: block;
+      font-size: 1.3em;
+    }
+
+    .form-group .form-control {
+      border: none;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      color: #fff;
+      padding: 5px 0;
+      width: 100%;
+      opacity: 0.7;
+    }
+
+    .form-group .form-control::placeholder {
+      opacity: 0.5;
+      color: white;
+      font-size: 15px;
+    }
+
+    .form-group .form-control.select {
+      appearance: none;
+      padding: 5px;
+    }
+
+    /*   .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    } */
+
+    input[type="button"] {
+      width: 100%;
+      padding: 10px;
+      background-color: rgb(177, 168, 43);
+      /* border: 1px solid #fff; */
+      border-radius: 5px;
+      color: #fff;
+      background-color: transparent;
+      padding: 15px 30px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    input[type="button"]:hover {
+      background-color: #4ea855;
+      color: #ffffff;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      color: white;
+    }
+
+    input[type="text"]:hover{
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #ffffff;
+    }
+    input[type="email"]:hover{
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #ffffff;
+    }
+
+    input[type="number"]:hover{
+      background-color: transparent;
+      border: 1px solid #fff;
+    }
+
+    select:hover {
+      background-color: white;
+      color: rgb(4, 49, 38);
+      text-transform: uppercase;
+    }
+    
+    h1 {
+      color: #e8ff17;
+      text-align: center;
+      font-size: 2em;
+      margin: 0;
+      margin-top: 50px;
+      /* margin-top: 50px; */
+    }
+
+    p {
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: large;
+    }
+
+    #btn {
+      width: 100%;
+      padding:0px;
+      background-color: #4CAF;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      color: #fff;
+      background-color: transparent;
+      padding: 10px 50px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+      cursor: pointer;
+    }
+
+    #btn:hover {
+      background-color: #12f125;
+      color: #ffffff;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Gold Grid Family</h1>
+      <p>Fill the form to register for our professional Cloud Engineering Program.</p>
+      <a href="https://pii.or.id/uploads/dummies.pdf" class="btn">
+        Course Outline
+       <i class="fas fa-download download-icon"></i> 
+      </a><br>
+      
+      <div class="form-container">
+        <form>
+          <div class="form-group">
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" class="form-control" placeholder="Please enter your first name" required>
+          </div>
+          <div class="form-group">
+            <label for="lName">Last Name:</label>
+            <input type="text" id="lName" class="form-control"  placeholder="Please enter your last name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Please enter a valid email address" required>
+          </div>
+          <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" id="age" class="form-control" placeholder="Please enter age (must be a number)" required>
+          </div>
+          <div class="form-group"> 
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" class="form-control" placeholder="Please enter your occupation" required>
+          </div>
+          <div class="form-group">
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality" class="form-control" placeholder="Please enter your nationality" required>
+          </div>
+          <div class="form-group">
+            <label for="maritalstatus">Marital Status:</label>
+            <select id="maritalstatus" name="maritalstatus" required>
+              <option value="single">Single</option>
+              <option value="married">Married</option>
+              <option value="divorced">Divorced</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <input class="form-control" id="btn" value ="submit" type="button" onclick="callAPI(
+              document.getElementById('fName').value,
+              document.getElementById('lName').value,
+              document.getElementById('age').value,
+              document.getElementById('occupation').value,
+              document.getElementById('nationality').value,
+              document.getElementById('maritalstatus').value,
+              document.getElementById('email').value
+            )">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var callAPI = (firstName, lastName, age, occupation, nationality, maritalstatus, email) => {
+      // instantiate a headers object
+      var myHeaders = new Headers();
+      // add content type header to object
+      myHeaders.append("Content-Type", "application/json");
+      // using built-in JSON utility package, turn object to string and store in a variable
+      var raw = JSON.stringify({
+        "firstName": firstName,
+        "lastName": lastName,
+        "age": age,
+        "occupation": occupation,
+        "nationality": nationality,
+        "maritalstatus": maritalstatus,
+        "email": email
+      });
+      // create a JSON object with parameters for API call and store in a variable
+      var requestOptions = {
+                method: 'POST',
+                headers: myHeaders,
+                body: raw,
+                redirect: 'follow'
+            };
+            // make API call with parameters and use promises to get response
+            fetch("https://a2xcrjlct0.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
+                .then(response => response.text())
+                .then(result => alert(result))
+                .catch(error => console.log('error', error));
+        }
+    </script>
+</body>
+</html>
