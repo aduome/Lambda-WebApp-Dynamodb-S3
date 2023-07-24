@@ -41,7 +41,7 @@ The application architecture is based on the following AWS services:
 - DynamoDB: A NoSQL database for storing and retrieving data.
 - S3: Used for hosting the static frontend files.
 
-![Get the file 'error.html' Here](https://aws.amazon.com/lambda/)
+![Architecture Diagram](https://github.com/aduome/Lambda-WebApp-Dynamodb-S3/blob/main/Photos/Lambda-WebApp-Dynamodb-S3%20(1).png)
 
 ## Deployment Steps
 Follow these steps to deploy the interactive web app:
@@ -51,15 +51,16 @@ Follow these steps to deploy the interactive web app:
 3. Create an execution role for your Lambda function and attach the lambda-role-policy.json policy to it. Make sure the role has the necessary permissions to access DynamoDB.
 4. Deploy the Lambda function using the AWS CLI or AWS Management Console.
 5. Create an API Gateway REST API and configure it to use a Lambda proxy integration with the deployed Lambda function.
-6. Deploy the API Gateway API and make note of the API endpoint URL.
-7. Create an S3 bucket and configure it for static website hosting.
-8. Upload the index.html and error.html files to the S3 bucket.
-9. Enable public access to the uploaded files in the S3 bucket.
-10. Visit the S3 bucket URL in a web browser to access the deployed web app.
+![API Gateway connection to AWS Lambda](https://github.com/aduome/Lambda-WebApp-Dynamodb-S3/blob/main/Photos/API%20Gateway%20Connection%20to%20Lambda%20Function.PNG)
+7. Deploy the API Gateway API and make note of the API endpoint URL.
+8. Create an S3 bucket and configure it for static website hosting.
+9. Upload the index.html and error.html files to the S3 bucket.
+10. Enable public access to the uploaded files in the S3 bucket.
+11. Visit the S3 bucket URL in a web browser to access the deployed web app.
 
 ## Conclusion
 You can now customize the web app further or add additional features as per your requirements.
-If you encounter any issues or have questions, please refer to the official AWS documentation or reach out for support.
+If you happen to have any issues or have questions, please refer to the official AWS documentation or reach out for support.
 
 <!-- CONTACT -->
 
